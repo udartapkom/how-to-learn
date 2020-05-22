@@ -17,7 +17,7 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative; /* это для того чтобы правильно расположить элементы */
-  overflow: hidden; /* чтобы синий квадрат не вылазил за пределы header */
+  /* overflow: hidden;  чтобы синий квадрат не вылазил за пределы header */
 }
 /* логотип */
 .logo{
@@ -104,7 +104,7 @@
   margin: 0; /* удалил отступы для абзаца */
 }
 /* основной текст */
-.two-columns_main-text{
+.two-columns__main-text{
   width: 80%;
   min-width: 784px;
 }
@@ -120,7 +120,7 @@
   margin-bottom: 0;
 }
 /* выделить слово ВЫВОД */
-.two-columns_span-accent{
+.two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -218,7 +218,8 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  color: #2f80ed;
+  color: black; /* убрал цвет #2f80ed, но в брифе написано, что это ссылка,
+   а для ссылок на первой странице есть указание конкретного цвета для ссылок */
 }
 .kaufman{
   display: flex;
@@ -285,16 +286,12 @@
   flex-basis: 711px;
 }
 .footer__column_content_info{
-  list-style-type: none;
-  padding: 0;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .footer__column_content_social{
-  list-style-type: none;
-  padding: 0;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .logo_place_footer{
   background-image: url(../images/logo_place_footer.svg);
@@ -316,14 +313,16 @@
   margin: 0;
 }
 .footer__column-links{
-  line-height: 30px;
-  font-size: 18px;
-  color: white;
-  font-weight: normal;
-  text-decoration: none;
+  padding: 0;
+  list-style-type: none;
 }
 .footer__social-icon{
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+.footer__column-link{
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
 }
