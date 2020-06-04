@@ -1,7 +1,7 @@
-@import url("/blocks/content/video/__iframes/video__iframes.css");
-@import url("/blocks/content/video/__iframe/video__iframe.css");
-@import url("/blocks/content/video/__iframe/video__iframe:last-of-type.css");
-@import url("/blocks/content/video/__iframe/video__iframe-borders.css");
+@import url("__iframes/video__iframes.css");
+@import url("__iframe/video__iframe.css");
+@import url("__iframe/video__iframe:last-of-type.css");
+@import url("__iframe/video__iframe-borders.css");
 .video{
     display: flex;
     justify-content: center;

@@ -1,5 +1,5 @@
-@import url("/blocks/logo/_place/logo_place_header.css");
-@import url("/blocks/logo/_place/logo_place_footer.css");
+@import url("_place/logo_place_header.css");
+@import url("_place/logo_place_footer.css");
 /* логотип */
 .logo{
     background-size: contain;
