@@ -1,3 +1,8 @@
+@import url("/blocks/content/description/two-columns/__brief/two-columns__brief.css");
+@import url("/blocks/content/description/two-columns/__main-text/two-columns__main-text.css");
+@import url("/blocks/content/description/two-columns/__paragraph/two-columns__paragraph.css");
+@import url("/blocks/content/description/two-columns/__paragraph/two-columns__paragraph:last-of-type.css");
+@import url("/blocks/content/description/two-columns/__span-accent/two-columns__span-accent.css");
   /* первая секция */
   .description{
     display: flex;
