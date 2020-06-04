@@ -1,0 +1,4 @@
+/*убраать margin у последнего параграфа*/
+.two-columns__paragraph:last-of-type{
+    margin-bottom: 0;
+  }

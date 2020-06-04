@@ -1,0 +1,6 @@
+/*блок для основного контента сраницы */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }

@@ -1,0 +1,7 @@
+/*ячейка */
+.table__cell{
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    list-style-type: none;
+  }

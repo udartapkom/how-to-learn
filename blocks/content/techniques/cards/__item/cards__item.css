@@ -1,0 +1,6 @@
+.cards__item{
+    text-align: center;
+    margin: 0 100px 60px 0;
+    width: 240px; /* ширину высчитал сложением отступов и ширины картинки */
+    list-style-type: none;
+}

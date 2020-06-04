@@ -1,0 +1,4 @@
+.video__iframe-borders{
+    border-style: none;
+}
+/* класс создан потому что, валидатор ругался на frameborder="0", пришлось его убрать */

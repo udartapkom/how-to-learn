@@ -1,0 +1,11 @@
+/* элемент "главные проблемы" */
+.two-columns__brief{
+    display: flex;
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2f80ed;
+    align-items: flex-start;
+    margin: 0; /* удалил отступы для абзаца */
+  }
