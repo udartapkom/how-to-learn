@@ -1,7 +1,7 @@
 @import url("__iframes/video__iframes.css");
 @import url("__iframe/video__iframe.css");
-@import url("__iframe/video__iframe:last-of-type.css");
-@import url("__iframe/video__iframe-borders.css");
+@import url("__iframe/video__list-style:last-of-type.css");
+@import url("__list-style/video__list-style.css");
 .video{
     display: flex;
     justify-content: center;
