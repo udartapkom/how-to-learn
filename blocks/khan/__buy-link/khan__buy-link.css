@@ -6,3 +6,7 @@
     text-decoration: none;
     position: absolute;
 }
+.khan__buy-link:hover{
+    opacity: .5;
+    transition: linear .3s;
+  }

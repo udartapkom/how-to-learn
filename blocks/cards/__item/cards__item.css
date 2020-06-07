@@ -4,3 +4,6 @@
     width: 240px; /* ширину высчитал сложением отступов и ширины картинки */
     list-style-type: none;
 }
+.cards__item:nth-of-type(3n+3){
+    margin-right: 0;
+}

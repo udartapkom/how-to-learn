@@ -4,3 +4,7 @@
     list-style-type: none;
     text-align: center;
 }
+.resources__logo:hover{
+    opacity: .5;
+    transition: linear .3s;
+  }

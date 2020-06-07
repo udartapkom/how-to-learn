@@ -1,5 +1,7 @@
 @import url("__logo-zone/resources__logo-zone.css");
 @import url("__logo/resources__logo.css");
+@import url("__link/resources__link.css"); /* Пришлось создать, потому что в брифе не написано про ссылки в
+этом блоке, но как выяснилось, они должны быть */
 .resources{
     width: 100%;
     display: flex;
